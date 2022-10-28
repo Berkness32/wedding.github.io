@@ -1,0 +1,66 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav li {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+  }
+
+h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    margin-inline: 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: black;
+    padding: 0px 80px 300px;
+    background-image: url("/Resources/Photos/carlsbad_cliffs71018.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1:hover {
+    color:rgb(176, 193, 195);
+}
+
+h4 {
+    text-decoration: underline;
+    top: 80px;
+    font-weight: bold;
+    height: 5px;
+    padding: 0 auto;
+    font-size: 30px;
+}
+
+h4:hover {
+    color:rgb(176, 193, 195);
+}
+
+p {
+    top: 80px;
+    font-size: 50px;
+}
